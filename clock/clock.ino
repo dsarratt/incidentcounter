@@ -3,6 +3,10 @@ Incident clock
 
 Donald Sarratt
 2019-08-23
+
+Note the implicit Arduino code layout:
+setup() is called once when the device initialises
+loop() is the main program loop
 ****************************************************/
 
 #include <EEPROM.h>
