@@ -4,6 +4,8 @@
 
 An automatic incident counter running on an Arduino Pro Micro. The counter records the number of days since the last incident occurred. There is no network connectivity, calendaring, or adjustment for daylight savings - a day is exactly 24 hours long.
 
+<img alt="image of the counter" src="https://raw.githubusercontent.com/dsarratt/incidentcounter/master/images/01.jpg" width="300px"> <img alt="image of the counter" src="https://raw.githubusercontent.com/dsarratt/incidentcounter/master/images/02.jpg" width="300px">
+
 ## Physical layout
 
 The incident counter has two inputs:
@@ -37,6 +39,6 @@ Button inputs are pulled HIGH by the Arduino, pressing the button or enabling th
 
 The device uses a state machine to move between the different modes:
 
-![State Machine Diagram](/State%20Machine.png)
+![State Machine Diagram](/images/State%20Machine.png)
 
 Code is in C++ and was compiled using the Arduino IDE 1.8.9. It uses the LED backpack libraries provided by AdaFruit, details for setting this up can be found on [AdaFruit's website](https://learn.adafruit.com/adafruit-led-backpack/1-2-inch-7-segment-backpack-arduino-wiring-and-setup).
