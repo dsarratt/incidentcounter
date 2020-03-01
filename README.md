@@ -16,7 +16,7 @@ The incident counter has two inputs:
 1. When the device is first turned on it will start in "idle mode", which displays the number of days since the last incident. This day counter will automatically increment every 24 hours.
 1. Toggle the incident switch to enable "incident mode" - during incident mode the display will flash "HELP". Disabling incident mode will return the device to idle status and reset the day count to zero.
 1. To adjust screen brightness, press and hold the pushbutton for at least 750ms. The screen will display "br" followed by the current screen brightness. Tap the pushbutton to cycle through brightness levels (0-15).
-1. To manually increment the day count, press and hold the pushbutton while in brightness mode. The display will flash the number of days since last incident. Tap the pushbutton to increase the day count.
+1. To manually increment the day count, press and hold the pushbutton while in brightness mode. The display will show a colon (:) followed by the number of days since the last incident. Tap the pushbutton to increase the day count.
 1. The device will save any changes and revert to "idle mode" if the buttons are left untouched for seven seconds.
 1. To reset the day count to zero, toggle the incident switch on and off while the device is in "idle mode".
 
